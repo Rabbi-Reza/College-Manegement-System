@@ -1,0 +1,67 @@
+.header_marquee{
+float:right;
+text-align:right;
+height:40px;
+width:30%;
+background-color:#7D7980;
+color:white;
+border:0px;
+border-left:6px;
+overflow:hidden;
+padding: 2px 2px;
+padding-bottom:2px;
+border:1px solid #0000FF;
+border-radius:20px;
+cursor:pointer;
+text-decoration:none;
+font-size:20px;
+
+}
+
+.header_marquee:hover{background:#12B600}
+
+
+
+/*main menu*/
+.mainmenu{min-height:43px;background:#7D7980}
+.mainmenu ul{margin:0px; padding: 0px; list-style:none}
+.mainmenu ul li{float:left; border-left:2px solid  #565458; border-right:2px solid #565458; position:relative}
+.mainmenu ul li:first-child{border:0px solid #2D426B}
+.mainmenu ul li:last-child{border:0px solid #2D426B}
+.mainmenu ul li a{color:#fff;display:block;width:90px; padding:10px; text-decoration:none}
+.mainmenu ul li a:hover{background:#}
+
+
+/*drop down menu*/
+.mainmenu ul li ul{position:absolute; left:-999999px}
+.mainmenu ul li:hover ul{left:0px}
+.mainmenu ul li ul li{float:none; border-bottom:2px solid #2D426B; border-left:0px solid; border-right: 0px solid}
+.mainmenu ul li ul li:last-child{border-bottom:0px solid}
+.mainmenu ul li ul li a{color:#fff;width:200px}
+.mainmenu ul li ul li a:hover{background:#}
+
+/*colorize menu*/
+#blue_menu{}
+#blue_menu a{background:#7D7980}
+#red_menu{}
+#red_menu a{background:#7D7980}
+#black_menu{}
+#black_menu a{background:#7D7980}
+
+
+.header_left_two{float:left;margin-left:50px;margin-top:30px;margin-bottom:20px}
+#input_one{width:500px;height:50px; border-radius:20px}
+ #input_two{width:70px;height:50px; border-radius:30px; cursor:wait; color:red}
+ input:hover{background:yellow}
+
+
+.content{margin:20px;padding:10px;width:310px;float:right;background:#1A636A; border:1px solid #AEB4B5}
+
+.content_p_one{font-weight:bold;color:fff}
+
+.content_p_two{font-weight:normal;font-size:13px;color:fff}
+
+
+.footer_div{color:fff; background-color: #5F7875;display:block;height:20px}
+
+
